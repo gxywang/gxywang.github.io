@@ -14,7 +14,7 @@
 
   <body>
     <!-- INTRO -->
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <table style="width:100%;max-width:870px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -26,9 +26,9 @@
                 <p>
                   I am an undergraduate student in Computer Science at the <a href="https://cs.illinois.edu/">University of Illinois Urbana-Champaign</a>, advised by <a href="http://shenlong.web.illinois.edu/">Prof. Shenlong Wang</a>.
                 </p>
-                <p>Previously, I was mentored by <a href="https://www.cs.cmu.edu/~ziruiw/">Dr. Zirui Wang</a> in NLP during high school.</p>
+                <p>Previously, I was mentored by <a href="https://www.cs.cmu.edu/~ziruiw/">Dr. Zirui Wang</a> in NLP.</p>
                 <p>
-                  My research interests lie in robot perception, robot learning, and 3D computer vision.
+                  My research interests lie in robot learning, robot perception, and 3D computer vision.
                 </p>
                 <p>
                   I also run <a href="https://sigrobotics.acm.illinois.edu/">SIGRobotics</a> at UIUC.
@@ -42,9 +42,12 @@
                   <a href="https://twitter.com/gloriaxwang">Twitter</a>
                 </p>
               </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <!-- object-fit: cover; -->
-                <img style="width:100%;max-width:100%;border-radius: 50%;" alt="profile photo" src="images/headshot.jpg" class="hoverZoomLink">
+              <td style="padding:2.5%;width:30%;max-width:30%">
+                <div style="width:100%;aspect-ratio:1/1;border-radius:50%;overflow:hidden;">
+                    <img style="width:100%;height:100%;object-fit:cover;transform:scale(1.4);transform-origin:80% 50%;" 
+                         alt="profile photo" 
+                         src="images/headshot.jpg">
+                </div>
               </td>
             </tr>
           </tbody></table>
@@ -63,21 +66,24 @@
 
           <!-- PUBLICATIONS -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-                <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <h2>Publications</h2>
-                </td>
-              </tr>
-            </tbody></table>
-            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Publications</h2>
+                <p style="margin-bottom:0px">* Equal Contribution</p>
+              </td>
+            </tr>
+            </tbody>
             <!-- REASONNAV -->
             <table border=0 class="bg_colour"
-            style="padding:10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            style="padding-left:20px;padding-bottom:10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
                 <td width="26%">
-                    <img src="https://reasonnav.github.io/assets/teaser.png" style="max-width: 100%; height: auto;" class="papericon">
+                  <div style="width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;">
+                    <img src="https://reasonnav.github.io/assets/reasonnav_readsigns.gif" 
+                         style="width:100%;height:100%;object-fit:cover;" 
+                         class="papericon">
+                  </div>
                 </td>
                 <td width="4%"></td>
                 <td width="68%">
@@ -90,19 +96,21 @@
                         <a href="https://shenlong.web.illinois.edu/">Shenlong Wang</a><br>
                         Conference on Robot Learning (<strong>CoRL</strong>), 2025<br>
                         CVPR FMEA Workshop, 2025<br>
-                        <a href="">paper</a>&nbsp;/&nbsp;
+                        <a href="https://arxiv.org/abs/2509.21189v1">paper</a>&nbsp;/&nbsp;
                         <a href="https://reasonnav.github.io/">project</a> &nbsp;/&nbsp;
-                        <a href="https://github.com/ReasonNav">code</a>
+                        <a href="https://github.com/ReasonNav/ReasonNav">code</a>
                       </p>
                 </td>
             </tr>
             <!-- NERF2PHYSICS -->
             <table border=0 class="bg_colour"
-            style="padding:10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            style="padding-left:20px;padding-bottom:10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
                 <td width="26%">
-                    <img src="https://github.com/ajzhai/NeRF2Physics/raw/master/docs/example_vid.gif" style="max-width: 100%; height: auto;" class="papericon">
+                  <div style="width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;">
+                    <img src="https://github.com/ajzhai/NeRF2Physics/raw/master/docs/example_vid.gif" style="max-width: 100%; height: auto; border-radius:10px" class="papericon">
+                  </div>
                 </td>
                 <td width="4%"></td>
                 <td width="68%">
@@ -124,11 +132,13 @@
             </tr>
             <!-- BIG-BENCH -->
             <table border=0 class="bg_colour"
-            style="padding:10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            style="padding-left:20px;padding-bottom:10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
                 <td width="26%">
+                  <div style="width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;">
                     <img src="https://github.com/google/BIG-bench/raw/main/bigbench/benchmark_tasks/results/plot_BIG-bench_lite_aggregate.png" style="max-width: 100%; height: auto;" class="papericon">
+                  </div>
                 </td>
                 <td width="4%"></td>
                 <td width="68%">
@@ -143,11 +153,13 @@
             </tr>
             <!-- NL-AUGMENTER -->
             <table border=0 class="bg_colour"
-            style="padding:10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            style="padding-left:20px;padding-bottom:10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
                 <td width="26%">
+                  <div style="width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;">
                     <img src="https://naneja.github.io/images/portfolio/nlaugumenter.png" style="max-width: 100%; height: auto;" class="papericon">
+                  </div>
                 </td>
                 <td width="4%"></td>
                 <td width="68%">
@@ -164,11 +176,12 @@
       <!-- TEACHING & SERVICE -->
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
+          <br/><br/>
         <td style="padding:20px;width:100%;vertical-align:middle">
           <h2>Teaching & Service</h2>
           <p><b>Course Assistant</b></p>
-          <p>CS 173 (Discrete Structures): Spring 2023, Fall 2023, Spring 2024, Fall 2024</p>
-          <p>CS 222 (Software Design Lab): Fall 2023, Spring 2024</p>
+          <p>UIUC CS 173 (Discrete Structures): Spring 2023, Fall 2023, Spring 2024, Fall 2024</p>
+          <p>UIUC CS 222 (Software Design Lab): Fall 2023, Spring 2024</p>
           
           <p><b>Reviewer</b></p>
           <p>CoRL 2025</p>
@@ -195,12 +208,8 @@
         <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
             <h2>Misc.</h2>
-            <p><b>Activities</b></p>
-            <p><a href="https://sigrobotics.acm.illinois.edu/">SIGRobotics</a> @ UIUC ACM</p>
-            <p><a href="https://iris.ae.illinois.edu/">Illinois Robotics in Space</a> (IRIS)</p>
-
-            <p><b>Hobbies</b></p>
-            <p>I like to travel, take photos, and eat (find me on Beli: @gxyw). And watch people <a href="https://www.youtube.com/@nevertoosmall">design tiny apartments on YouTube</a>.</p>
+            <p>Outside of research, I like to travel, take photos, and eat/cook (find me on Beli: @gxyw). <br/>
+            And occasionally watch people <a href="https://www.youtube.com/@nevertoosmall">design tiny apartments on YouTube</a>.</p>
 
             <!-- <p><b>Study Notes</b></p>
             <p>Almost all of my notes are digital-- you can find them <a href="https://www.remnote.com/profile/gxywang">here</a>. Mostly math and cs.</p> -->
